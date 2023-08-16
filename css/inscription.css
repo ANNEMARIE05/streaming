@@ -16,21 +16,70 @@ body {
     display: flex;
     justify-content: space-between;
     width: 70%;
-    margin: 10rem auto;
-    height: 400px;
-    background-color: aliceblue;
+    margin: 13rem auto;
+    height: 580px;
+}
+h1{
+    font-weight: 100;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
 }
 .inscription div{
-    width: 50%;
+    width: 49%;
 }
 .inscrire{
-    background-color: brown;
-    padding: 2rem;
+    padding: 3rem;
     text-align: center;
+    background-color: #FFF;
 }
 input{
     width: 100%;
+    padding: 1rem;
+    background-color: #FCFCFC;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 24px;
+    height: 57px;
+}
+input::placeholder{
+    color: #000;
 }
 .ipt{
     width: 49%;
+}
+.dot{
+    margin-right: 12px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 1rem;
+}
+button a{
+    text-decoration: none;
+    color: #FFF;
+}
+.btn1{
+    background-color: #80668A;
+}
+.btn2{
+   background-color: #B4A3B9;
+}
+
+.inscription .texte div{
+    color: #FFF;
+    font-size: 1.5rem;
+    margin: auto;
+}
+img{
+    height: 300px;
+    width: 500px;
+    margin-left: -70px;
 }

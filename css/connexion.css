@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.843),
+        rgba(34, 34, 34, 0.843)
+      ),
+      url(../images/accueil.jpeg);
+    background-size: cover;
+}
+.connexion{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 15rem auto;
+    height: 500px;
+}
+h1{
+    font-weight: 100;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+.connexion div{
+    width: 49%;
+}
+.connect{
+    padding: 3rem;
+    text-align: center;
+    background-color: #FFF;
+}
+input{
+    width: 100%;
+    padding: 1rem;
+    background-color: #FCFCFC;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 24px;
+    height: 57px;
+}
+input::placeholder{
+    color: #000;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 1rem;
+}
+button a{
+    text-decoration: none;
+    color: #FFF;
+}
+.btn1{
+    background-color: #80668A;
+}
+.btn2{
+   background-color: #B4A3B9;
+}
+
+.connexion .texte div{
+    color: #FFF;
+    font-size: 1.5rem;
+    margin: auto;
+}
+img{
+    height: 300px;
+    width: 500px;
+    margin-left: -70px;
+}
