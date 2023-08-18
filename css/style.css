@@ -49,9 +49,6 @@ header button{
     background: none;
     border-radius: 20px;
 }
-header button:hover{
-
-}
 header a {
     color: #FFF;
 }
@@ -68,7 +65,7 @@ header a {
     margin-left: 3rem;
     padding: 1rem;
 }
-.menu embed{
+.menu video{
     border-radius: 20px;
     width: 70%;
     height: 300px;
@@ -80,7 +77,7 @@ header a {
 .mesDeos{
     padding: 2rem;
 }
-.video embed{
+.video video{
     width: 100%;
     height: 300px;
     border-radius: 20px;
@@ -97,12 +94,15 @@ header a {
 .deo div{
     height: 80px;
     width: 100%;
-    background-color: #FFF;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    background-color: #00000091;
     position: relative;
-    top: -5.2rem;
     display: flex;
     justify-content: space-between;
+    color: #FFF;
     padding: 2rem;
+    margin-top: -5rem;
+}
+.deo div:hover{
+    background-color: #000;
+    color: palegoldenrod;
 }
