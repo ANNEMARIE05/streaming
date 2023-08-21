@@ -6,8 +6,8 @@
 }
 body {
   background-image: linear-gradient(
-      rgba(34, 34, 34, 0.843),
-      rgba(34, 34, 34, 0.843)
+      rgba(34, 34, 34, 0.552),
+      rgba(34, 34, 34, 0.552)
     ),
     url(../images/accueil.jpeg);
   background-size: cover;
@@ -105,4 +105,71 @@ header a {
 .deo div:hover{
     background-color: #000;
     color: palegoldenrod;
+}
+
+
+@media (max-width: 1142px){
+    .deo div{
+        padding: 2rem 0.5rem;
+    }
+}
+@media (max-width: 1110px){
+    .head div {
+       width: 60%;
+    }
+    .head input {
+        width: 85%;
+    }
+    header button {
+        width: 100px;
+    }
+    header{
+        padding: 1rem;
+    }
+    .miniDeo{
+        padding: 2rem;
+    }
+    .video {
+        flex-wrap: wrap;
+    }
+    .mesDeos{
+        padding: 0;
+    }
+    .video .deo {
+        width: 47%;
+        margin-left: 1rem;
+    }
+    .menu video {
+        width: 100%;
+    }
+}
+@media (max-width: 715px){
+    nav{
+        flex-wrap: wrap;
+    }
+    header button{
+        margin-left: 0;
+    }
+}
+@media (max-width: 670px){
+    .menuH2{
+        margin-left: 0;
+    }
+}
+@media (max-width: 597px){
+    .menuH2 {
+      display: none;
+    }
+    .menu div{
+        width: 100%;
+    }
+    .headbtn{
+        float: right;
+    }
+    .head div{
+        width: 100%;
+    }
+    .video .deo{
+        width: 100%;
+    }
 }

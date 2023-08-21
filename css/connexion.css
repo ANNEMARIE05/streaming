@@ -77,3 +77,12 @@ img{
     width: 500px;
     margin-left: -70px;
 }
+@media (max-width: 1500px){
+    .texte{
+        display: none;
+    }
+    .connexion div{
+        width: 500px;
+        margin: auto;
+    }
+}

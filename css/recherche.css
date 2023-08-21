@@ -5,9 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 body {
-    background-image: linear-gradient(rgba(34, 34, 34, 0.666),rgba(34, 34, 34, 0.666) ),
+    background-image: linear-gradient(rgba(34, 34, 34, 0.552),rgba(34, 34, 34, 0.552) ),
       url(../images/accueil.jpeg);
     background-size: cover;
+}
+header input::placeholder{
+    color: #FFF;
 }
 nav {
     display: flex;
@@ -75,5 +78,24 @@ header a {
     font-size: 2rem;
 }
 .card2{
-    width: 90%;
+    width: 89%;
+}
+.videos{
+    justify-content: space-between;
+    display: flex;
+}
+.videos .deo{
+    width: 33%;
+    height: 330px;
+    margin-bottom: 1rem;
+}
+video{
+    height: 300px;
+    width: 100%;
+}
+.deo div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    color: #FFF;
 }

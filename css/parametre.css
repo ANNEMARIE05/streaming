@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 body {
-    background-image: linear-gradient(rgba(34, 34, 34, 0.666),rgba(34, 34, 34, 0.666) ),
+    background-image: linear-gradient(rgba(34, 34, 34, 0.552),rgba(34, 34, 34, 0.552) ),
       url(../images/accueil.jpeg);
     background-size: cover;
 }

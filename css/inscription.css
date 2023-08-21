@@ -83,3 +83,34 @@ img{
     width: 500px;
     margin-left: -70px;
 }
+@media (max-width: 2025px){
+    .inscrire{
+        padding: 2rem;
+    }
+    .inscrire{
+        width: 50%;
+    }
+    .inscription .texte{
+        width: 40%;
+    }
+}
+@media (max-width: 2025px){
+    .inscription .texte{
+       display: none;
+    }
+    .inscrire{
+        margin: auto;
+        width: 60%;
+    }
+    .ipt {
+        width: 48%;
+    }
+}
+@media (max-width: 1500px){
+    .inscription div{
+        width: 500px;
+    }
+    .ipt{
+        width: 100%;
+    }
+}
