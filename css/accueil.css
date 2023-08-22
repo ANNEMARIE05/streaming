@@ -129,3 +129,105 @@ header a {
     font-size: 2rem;
     margin: 0 1rem;
 }
+@media (max-width: 1375px) {
+    .deo div {
+        padding: 2rem 10px;
+    }
+}
+@media (max-width: 1180px) {
+    header{
+        padding: 2rem 1rem;
+    }
+    .card2 video{
+        width: 95%;
+        margin: -4rem 1.5rem 0;
+        position: relative;
+    }
+    .head div{
+        width: 60%;
+    }
+    .videos{
+        padding: 5px;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .card {
+        margin-top: 0;
+    }
+    .head input {
+        width: 85%;
+    }
+    .videos{
+        flex-wrap: wrap;
+    }
+    .videos .deo{
+        width: 49%;
+    }
+    
+}
+@media (max-width: 950px) {
+    .deo div {
+        padding: 2rem 10px;
+    }
+    .card2 video {
+        width: 93%;
+        border-radius: 1rem;
+        height: 500px;
+        margin: 0 1.5rem;
+    }
+    .card2 div {
+        width: 95%;
+    }
+
+}
+@media (max-width: 720px) {
+    .card2{
+        margin: -4rem 1.5rem;
+    }
+}
+@media (max-width: 570px) {
+    .card2{
+        margin: -6rem 2rem;
+    }
+    .card1 i {
+        margin: 2rem 1rem;
+        font-size: 1rem;
+    }
+    .card2 i {
+        font-size: 1rem;
+        margin: 0 1rem;
+    }
+    .card2 h1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 475px) {
+    .videos .deo {
+        width: 100%;
+    }
+    .card2 h1{
+        font-size: 1rem;
+    }
+    .card2 {
+        width: 95%;
+        margin: -8rem 0;
+    }
+    header {
+        padding: 2rem .2rem;
+    }
+    header h1{
+        font-size: 1rem;
+        margin: 5px;
+    }
+    .myimage img{
+        height: 50px;
+        width: 50px;
+    }
+    .myimage p{
+        font-size: 10px;
+    }
+    .card2 video{
+        margin: 0.5rem;
+    }
+   
+}

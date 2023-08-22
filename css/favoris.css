@@ -82,12 +82,12 @@ header a {
 }
 .videos{
     display: flex;
+    justify-content: space-between;
     width: 90%;
     padding: 0 1rem;
 }
 .videos .deo{
     width: 23.5%;
-    margin: 0 1rem;
 }
 
 .videos video{
@@ -100,4 +100,72 @@ header a {
     justify-content: space-between;
     padding: 0 1rem;
     color: #FFF;
+}
+
+
+@media (max-width: 1240px) {
+    .videos{
+        flex-wrap: wrap;
+    }
+    .videos .deo{
+        width: 49.5%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 950px) {
+    .videos{
+        width: 99%;
+        margin-left: .6rem;
+    }
+    header{
+        padding: 2rem 1rem 0;
+    }
+    .head input {
+        width: 85%;
+    }
+    .head div{
+        width: 60%;
+    }
+    .card {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 1rem;
+    }
+    .card1 i {
+        margin: 2rem 1rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 680px) {
+    .videos .deo{
+        margin-bottom: 0;
+    }
+    .card1 i {
+        margin: 2rem 1rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 620px) {
+    .videos .deo{
+        width: 100%;
+    }
+}
+@media (max-width: 463px) {
+    header {
+        padding: 2rem .2rem;
+    }
+    header h1{
+        font-size: 1rem;
+        margin: 5px;
+    }
+    .myimage img{
+        height: 50px;
+        width: 50px;
+    }
+    .myimage p{
+        font-size: 10px;
+    }
+    .card2 video{
+        margin: 0.5rem;
+    }
 }

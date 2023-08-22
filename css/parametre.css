@@ -91,3 +91,49 @@ header a {
     margin: 1rem;
     font-size: 1.2rem;
 }
+
+@media (max-width: 950px) {
+    header{
+        padding: 2rem 1rem 0;
+    }
+    .head input {
+        width: 85%;
+    }
+    .head div{
+        width: 60%;
+    }
+    .card {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 1rem;
+    }
+    .card1 i {
+        margin: 2rem 1rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 680px) {
+    .card1 i {
+        margin: 2rem 1rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 463px) {
+    header {
+        padding: 2rem .2rem;
+    }
+    header h1{
+        font-size: 1rem;
+        margin: 5px;
+    }
+    .myimage img{
+        height: 50px;
+        width: 50px;
+    }
+    .myimage p{
+        font-size: 10px;
+    }
+    .card2 video{
+        margin: 0.5rem;
+    }
+}
